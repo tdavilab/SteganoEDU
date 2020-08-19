@@ -28,12 +28,13 @@ from tkinter import filedialog
 
 import os.path
 
+
 def escuchar():
     while True:
         #Facade.getInstance().registrar_gui(top)
         if Facade.getInstance().app != None:
             #Facade.getInstance().registrar_gui(top)
-            Facade.getInstance().escuchar_mensajes()          
+            Facade.getInstance().escuchar_mensajes()
         #root.update()
 
 t = Thread(target=escuchar)
@@ -154,7 +155,7 @@ class main_window:
         self.txt_host.place(relx=0.182, rely=0.261, relheight=0.183
                 , relwidth=0.276)
         self.txt_host.configure(takefocus="")
-        self.txt_host.configure(cursor="ibeam")
+
 
         self.btn_iniciar_cliente = ttk.Button(self.frame_conexion)
         self.btn_iniciar_cliente.place(relx=0.509, rely=0.522, height=25
@@ -193,7 +194,7 @@ class main_window:
         self.txt_port.place(relx=0.182, rely=0.522, relheight=0.183
                 , relwidth=0.276)
         self.txt_port.configure(takefocus="")
-        self.txt_port.configure(cursor="ibeam")
+
 
         self.frame_archivo = tk.Frame(self.notebookt1)
         self.frame_archivo.place(relx=0.524, rely=0.027, relheight=0.307
@@ -247,7 +248,7 @@ class main_window:
         self.txt_clave.place(relx=0.218, rely=0.696, relheight=0.183
                 , relwidth=0.676)
         self.txt_clave.configure(takefocus="")
-        self.txt_clave.configure(cursor="ibeam")
+
 
         self.lbl_bits_archivo = ttk.Label(self.frame_archivo)
         self.lbl_bits_archivo.place(relx=0.291, rely=0.435, height=17, width=41)
