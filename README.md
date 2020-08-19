@@ -1,4 +1,4 @@
-# STEGANO-AES Application
+# LSB-AES Hybrid Encryption Scheme
 
 Standalone application to securely exchange information between two peers. It uses a hybrid encryption scheme to exchange images with secret content, applying the AES CBC algorithm, the LSB Steganography algoritm, RSA key-pair exchange algorithm and md5 hash algorithm.
 
