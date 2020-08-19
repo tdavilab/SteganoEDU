@@ -10,8 +10,8 @@ python -m pip install virtualenv
 ```
 
 ```sh
-git clone https://github.com/tdavilab/Cifrado-Hibrido-Esteganografia.git
-cd Cifrado-Hibrido-Esteganografia
+git clone https://github.com/tdavilab/hybrid-encryption-lsb-aes.git
+cd hybrid-encryption-lsb-aes
 virtualenv env
 source env/bin/activate
 pip install -r requirements.txt
