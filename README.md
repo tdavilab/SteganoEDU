@@ -2,6 +2,8 @@
 
 Standalone application to securely exchange information between two peers. It uses a hybrid encryption scheme to exchange images with secret content, applying the AES CBC algorithm, the LSB Steganography algoritm, RSA key-pair exchange algorithm and md5 hash algorithm.
 
+![s3](https://user-images.githubusercontent.com/25911836/154664771-37f8eda6-9032-4f12-9bc7-0dabfccbb746.PNG)
+
 ## Installation
 
 You need to have virtualenv installed:
@@ -24,7 +26,3 @@ source env/bin/activate
 python gui.py
 ```
 
-
-
-![s1](https://user-images.githubusercontent.com/25911836/154664569-60dea46b-de36-4edc-a23f-e348de711c4d.png)
-![s2](https://user-images.githubusercontent.com/25911836/154664579-78fcc8c9-dc2d-4967-a46c-7973a0949dc9.png)
