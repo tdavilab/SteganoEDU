@@ -26,3 +26,5 @@ python gui.py
 
 
 
+![s1](https://user-images.githubusercontent.com/25911836/154664569-60dea46b-de36-4edc-a23f-e348de711c4d.png)
+![s2](https://user-images.githubusercontent.com/25911836/154664579-78fcc8c9-dc2d-4967-a46c-7973a0949dc9.png)
